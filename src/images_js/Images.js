@@ -1,7 +1,10 @@
 import React, {useState, useEffect} from "react";
-import transmission from "./assets/transmission.jpg";
-import engne from "./assets/engine.png";
-import door from "./assets/door.jpg";
+import transmission from "../assets/transmission.jpg";
+import engne from "../assets/engine.png";
+import door from "../assets/door.jpg";
+import checkerflagresized from "../assets/checkerflagresized.png";
+
+
 
 const images = [transmission, engne, door];
 //work on the transion of the images
@@ -40,8 +43,14 @@ return (
           />
         ))}
       </div>
-    </div>
-  );
+    </div>,
+
+<div className="checkerflag-container">
+<img src={checkerflagresized} alt="Left Side" className="left-image"/>
+  </div>
+);
+  
+  
 }
 
 export default Images;  
