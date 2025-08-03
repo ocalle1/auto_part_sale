@@ -46,7 +46,8 @@ return (
     </div>,
 
 <div className="checkerflag-container">
-<img src={checkerflagresized} alt="Left Side" className="left-image"/>
+<img src={checkerflagresized} alt="Left Side" />
+  
   </div>
 );
   

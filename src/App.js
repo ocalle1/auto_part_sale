@@ -5,7 +5,7 @@ import Images from './images_js/Images';
 function App() {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
     <Images />
 
     </div>
