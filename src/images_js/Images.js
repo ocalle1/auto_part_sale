@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
-import transmission from "../assets/transmission.jpg";
-import engne from "../assets/engine.png";
-import door from "../assets/door.jpg";
+import transmission from "../assets/parts/transmission.jpg";
+import engne from "../assets/parts/transmission.jpg";
+import door from "../assets/parts/door.jpg";
 import checkerflagresized from "../assets/checkerflagresized.png";
 
 
