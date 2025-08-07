@@ -1,20 +1,30 @@
 import React from "react";
 import checkerflagresized from "./assets/checkerflagresized.png"; // Adjust the path as necessary
+<<<<<<< HEAD
 import NavButton from "../src/NavButton.js"; // Adjust the path as necessary
 import Images from "./images_js/Images.js"; // Adjust the path as necessary
+=======
+import NavButton from "./route_pages/ReactRouter.js"; // Adjust the path as necessary
+import ReactRouter from "./route_pages/ReactRouter.js";
+
+>>>>>>> refs/remotes/origin/main
 
 
 function Header() {
   return (
+<<<<<<< HEAD
     <>
     {/* <Images/> */}
+=======
+      <>
+>>>>>>> refs/remotes/origin/main
     {/* left-side image */}
     <div className="checkerflag-container">
       <img src={checkerflagresized} alt="Checker Flag" className="left-image"/>
       
       {/* Business name */}
-        <NavButton />
-      <div className="right-content">
+        {/* <ReactRouter /> */}
+      <div className="home-rightside-content">
       <header>
         <h1> 
           OC<br/> 
@@ -29,36 +39,9 @@ function Header() {
         autopartsaleoc@gmail.com
       </h2>  
       </div>
+
+      {/* I want this to be on very top of Business name in hamburger menu */}
     </div>
-
-    <div className="nav nav-buttons">
-    <div className="nav Home"/>
-    <div className="nav Contact"/>
-    <div className="nav Products"/>
-    <div className="nav About"/>
-    <div className="nav Services"/>
-    <div className="nav Testimony"/>
-</div>
-
-<style jsx>{`
-.nav-buttons{
-width: 2rem;
-height: 2rem;
-display: flex;
-justify-content: space-around;
-flex-flow: column nowrap;
-z-index: 10;
-
-.nav{
-width: 2rem;
-height: 2rem;
-display: flex;
-justify-content: center;
-flow-flex: column nowrap;
-z-index: 10;
-}
-`}
-</style>
      </>
   
   );
