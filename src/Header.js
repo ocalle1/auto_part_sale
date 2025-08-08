@@ -1,23 +1,13 @@
 import React from "react";
 import checkerflagresized from "./assets/checkerflagresized.png"; // Adjust the path as necessary
-<<<<<<< HEAD
-import NavButton from "../src/NavButton.js"; // Adjust the path as necessary
-import Images from "./images_js/Images.js"; // Adjust the path as necessary
-=======
 import NavButton from "./route_pages/ReactRouter.js"; // Adjust the path as necessary
 import ReactRouter from "./route_pages/ReactRouter.js";
 
->>>>>>> refs/remotes/origin/main
 
 
 function Header() {
   return (
-<<<<<<< HEAD
-    <>
-    {/* <Images/> */}
-=======
       <>
->>>>>>> refs/remotes/origin/main
     {/* left-side image */}
     <div className="checkerflag-container">
       <img src={checkerflagresized} alt="Checker Flag" className="left-image"/>

@@ -3,7 +3,6 @@ html, body, #root {
   margin: 0;
   padding: 0;
 }
-
 .checkerflag-container {
   display: flex;
   flex-direction: row;
@@ -11,20 +10,17 @@ html, body, #root {
   align-items: stretch;
   width: 100%;
   height: 100vh;
-  padding-top: 1rem;
+  padding-top: 1rem; 
 }
-
 .left-image {
   width: 50%;
   height: 100%;
   object-fit: cover;
 }
-
 .home-rightside-content {
   margin-top: 1rem;
   width: 50%;
   background-color: white;
-  /* color: white; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,13 +28,10 @@ html, body, #root {
   padding: 2rem;
   text-align: center;
 }
-
 .home-rightside-content h1 {
   font-size: 5rem;
-  /* margin-bottom: 3rem; */
   color: #c6c35c;
 }
-
 .names-right-content {
   font-family: hammersmith, sans-serif;
   font-size: 3rem;
@@ -46,7 +39,6 @@ html, body, #root {
   opacity: 0.8;
   color: #000001;
 }
-
 .business-info {
 font-family: hammersmith, sans-serif;
   margin-top: 1rem;
